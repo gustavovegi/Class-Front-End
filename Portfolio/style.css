@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family:'Montserrat';
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+h1 {
+    color:white;
+    font-family:'Krona one';
+    font-size: 36px;
+}
+.destaque-titulo {
+    color: #22D4FD;
+    font-size:36px;
+    font-style: normal;
+}
+
+button {
+    background-color: #22D4FD;
+    border-radius: 100px;
+    height: 50px;
+    width: 200px;
+    font-family: 'Montserrat';
+    font-style: bold;
+    border: 1px solid;
+    padding: 10px;
+}
+
+img{
+    width: 500px;
+    height: 488px;
+    border-radius: 25px;
+}
+
+.container {
+    display: flex;
+    align-items:flex-end;
+}
+
+.foto {
+    display: flex;
+    align-items: center;
+}
