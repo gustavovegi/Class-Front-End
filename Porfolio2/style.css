@@ -1,0 +1,111 @@
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(12,4,51);
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(195,68,81);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .1s;
+}
+
+ /* ESTILO CABEÇALHO */
+
+header{
+    padding: 40px 4%
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(117, 117, 117);
+    text-decoration: none;
+    display: inline-block;
+    transition: .1s;
+}
+
+header a:hover {
+    color: white;
+    transform: scale(1.02);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+   display: inline-block; 
+   padding: 0 40px;
+}
+
+.btn-contato button:hover {
+    box-shadow: 0px 0px 5px rgba(231, 8, 31, 0.575);
+    transform: scale(1.02);
+}
+
+img {
+    width: 200px;
+    height: 90px;
+    border-radius:8px; 
+}
+
+/* ESTILO DO TOPO DO SITE */
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h1 span {
+    color:rgb(195,68,81);
+    font-size: 58px;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 0px;
+}
+
+.topo-do-site .img-topo-site img {
+    width: 600px;
+    height: 825px;
+}
