@@ -83,7 +83,7 @@ header nav ul li{
 
 img {
     width: 200px;
-    height: 90px;
+    height: 120px;
     border-radius:8px; 
 }
 
@@ -182,9 +182,9 @@ section.sobre .flex{
     margin: 20px 0;
     text-align: justify;
 }
-.sobre .img-sobre {
-    width: 960px;
-    height: 90px;
+.sobre .img-sobre img{
+    width: 500px;
+    height: 600px;
 }
 
 .sobre .txt-sobre .btn-social button{
