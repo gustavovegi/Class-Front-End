@@ -24,9 +24,9 @@
             <nav class="menu-desktop">
                 <ul>
                     <li><a href="#1">Início</a></li>
-                    <li><a href="">Especialidade</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Projetos</a></li>
+                    <li><a href="#2">Especialidade</a></li>
+                    <li><a href="#3">Sobre</a></li>
+                    <li><a href="#4">Projetos</a></li>
                 </ul>
             </nav>
             <div class="btn-contato">
@@ -59,14 +59,14 @@
             </div><!--interface-->
         </section> <!--Topo-do-site-->
 
-        <section class="especialidades">
+        <section class="especialidades" id="2">
             <div class="interface">
                 <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
                 <div class="flex">
                     <div class="especialidades-box">
                         <i class="bi bi-code-square"></i>
                         <h3>Website</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus soluta reiciendis, praesentium tempora quis consequatur quisquam magni eum delectus. Molestias architecto fuga nam adipisci sunt modi illum. Aliquam, illo rerum.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus soluta reiciendis, praesentium tempora quis consequatur quisquam magni eum delectus. Molestias architecto fuga nam adipisci sunt modi illum. Aliquam, illo rerum.</p> 
                     </div> <!--especialidades-box-->
 
                     <div class="especialidades-box">
@@ -84,11 +84,11 @@
             </div> <!--interface-->
         </section>  <!--especialidades-->
         
-        <section class="sobre">
+        <section class="sobre" id="3">
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
-                        <img src="images/foto site .jpg" alt="foto de gustavo vegi">
+                        <img src="images/foto site.jpg" alt="foto de gustavo vegi">
                     </div><!--img-sobre-->
                     <div class="txt-sobre">
                         <h2>MUITO PRAZER, <span>SOU GUSTAVO VEGI.</span.></h2>
@@ -105,6 +105,58 @@
             </div><!--interface-->
         </section> <!--sobre-->
 
+        <section class=portfolio id="4">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFOLIO.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(images/landing\ page\ aleatoria.png);">
+                        <div class="overlay">Projeto 1</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/landing\ page\ aleatoria.png);">
+                        <div class="overlay">Projeto 2</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/landing\ page\ aleatoria.png);">
+                        <div class="overlay">Projeto 3</div>
+                    </div>
+                </div><!--flex-->
+            </div> <!--interface-->
+        </section> <!--poortfolio-->
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALE <span>COMIGO.</span></h2>
+                
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Seu nome completo" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail" required>
+                    <input type="text" name="" id="" placeholder="Seu celular">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"> <input type="submit" value="ENVIAR"></div>
+                </form>
+            </div>
+        </section> <!--formulario-->
+
     </main>
-</body>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/Logo GVR.jpg" alt="logo GVR">
+                    </div><!--logo-foooter-->
+                    <div class="btn-social">
+                        <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="#"><button><i class="bi bi-github"></i></button></a>
+                    </div> <!--btn-social-->
+                </div> <!--flex-->
+            </div> <!--line-footer-->
+    
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope"></i> <a href="mailto:gustavovegi15@gmail.com">gustavovegi15@gmail.com</a></p>
+            </div> <!--line-footer-->
+        </div><!--interface-->
+    </footer>
+    
 </html>
